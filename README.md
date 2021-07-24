@@ -1,2 +1,2 @@
 # Multithreaded-DNS-Resolver
-Multithreaded DNS Resolver . Programming Assignment 3 from CSCI 3753: Operating Systems. 
+Multithreaded DNS Resolver . Programming Assignment 3 from CSCI 3753: Operating Systems. Variation of the bounded buffer problem. 
