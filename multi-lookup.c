@@ -136,6 +136,7 @@ Entry point to the program
 */
 int main(int argc, char **argv)
 {
+    if (argc < 6) ERROR2("Incorrect Number of Arguments");
     
     int file;
     char *ptr;
@@ -146,7 +147,6 @@ int main(int argc, char **argv)
     gettimeofday(&start,NULL);
 
     //Error Checking on input 
-    if (argc < 6) ERROR2("Incorrect Number of Arguments");
     req_count = strtol(argv[1], &ptr, 10);
     if (*ptr != '\0') ERROR1("Req Count must be a number");
     res_count = strtol(argv[2],&ptr,10);
